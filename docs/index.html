@@ -215,7 +215,7 @@ footer .logo{color:var(--ink);margin-right:auto}
 
 <header class="hero" id="top"><div class="wrap">
   <div>
-    <span class="eyebrow">Free for Windows · Mac and Linux coming</span>
+    <span class="eyebrow">By <a href="https://selectalabs.github.io/" target="_blank" rel="noopener" style="color:inherit;text-decoration:underline">Selecta Labs</a> · Free for Windows · Mac and Linux coming</span>
     <h1>Your AI, one shortcut away. <span class="v">In every app.</span></h1>
     <p class="lede">Select text anywhere, press one shortcut, and AI fixes it, translates it, answers it or turns it into a clean prompt. One click puts the result back where your text was.</p>
     <div class="cta">
@@ -403,10 +403,14 @@ footer .logo{color:var(--ink);margin-right:auto}
   <a href="https://apps.microsoft.com/detail/9MXVRN1VZSC5" target="_blank" rel="noopener">Microsoft Store</a>
   <a href="https://mellaithy.gumroad.com/l/selecta-pro" target="_blank" rel="noopener">Pro</a>
   <a href="privacy.html">Privacy</a>
-  <span>© 2026 Mohamed El Laithy</span>
+  <a href="https://selectalabs.github.io/" target="_blank" rel="noopener">Selecta Labs</a>
+  <a href="https://mohamed-hamdy.github.io/askadb-site/" target="_blank" rel="noopener">AskaDB</a>
+  <a href="https://selectalabs.github.io/toolecta/" target="_blank" rel="noopener">Toolecta</a>
+  <span>&copy; <span id="yr">2026</span> Selecta Labs</span>
 </div></footer>
 
 <script>
+(function(){var y=document.getElementById("yr");if(y)y.textContent=new Date().getFullYear();})();
 (function(){
   var ALT={polish:"Selecta AI fixing an email",translate:"Selecta AI translating text",coding:"Selecta AI writing a coding agent prompt"};
   var tabs=[].slice.call(document.querySelectorAll('.tab')), shot=document.getElementById('shot');
